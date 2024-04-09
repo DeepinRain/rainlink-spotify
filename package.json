@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "rainlink": "^0.6.2-beta5"
+    "rainlink": "^0.6.3-beta5"
   },
   "devDependencies": {
     "@types/node": "^20.12.6",
@@ -9,7 +9,7 @@
   },
   "name": "rainlink-spotify",
   "description": "A rainlink plugin that allows you to play music on spotify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc"
