@@ -283,7 +283,8 @@ export class RainlinkPlugin extends SourceRainlinkPlugin {
 					position: 0,
 					title: spotifyTrack.name,
 					uri: `https://open.spotify.com/track/${spotifyTrack.id}`,
-					artworkUrl: thumbnail ? thumbnail : spotifyTrack.album?.images[0]?.url,
+					artworkUrl: thumbnail ? thumbnail : spotifyTrack.album?.images[0]?.url ?? null,
+					isrc: null
 				},
 				pluginInfo: {
 					name: this.name(),
